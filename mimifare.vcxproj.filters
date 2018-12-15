@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="acr89.h" />
+    <ClInclude Include="acr_pn532.h" />
+    <ClInclude Include="globals.h" />
+    <ClInclude Include="mimifare.h" />
+    <ClInclude Include="key_helpers.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="acr_pn532.c" />
+    <ClCompile Include="mimifare.c" />
+    <ClCompile Include="key_helpers.c" />
+  </ItemGroup>
+</Project>
